@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lhy.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <include layout="@layout/side_content_layout" />
+
+    <include layout="@layout/main_content_layout" />
+</com.lhy.swipe.SwipeLayout>
